@@ -9,7 +9,7 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{asset('admin-lte/plugins/font-awesome/css/font-awesome.min.css')}}">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css')}}">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="{{asset('admin-lte/dist/css/adminlte.min.css')}}">
   <!-- iCheck -->
@@ -190,7 +190,7 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="pages/charts/chartjs.html" class="nav-link">
+                <a href="{{route('product')}}" class="nav-link">
                   <i class="fa fa-circle-o nav-icon"></i>
                   <p>Add Product</p>
                 </a>
@@ -256,15 +256,15 @@
 <!-- jQuery -->
 <script src="{{asset('admin-lte/plugins/jquery/jquery.min.js')}}"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js')}}"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="{{asset('admin-lte/plugins/bootstrap/js')}}/bootstrap.bundle.min.js')}}"></script>
+<script src="{{asset('admin-lte/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- Morris.js')}} charts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
 <script src="{{asset('admin-lte/plugins/morris/morris.min.js')}}"></script>
 <!-- Sparkline -->
 <script src="{{asset('admin-lte/plugins/sparkline/jquery.sparkline.min.js')}}"></script>
@@ -274,7 +274,7 @@
 <!-- jQuery Knob Chart -->
 <script src="{{asset('admin-lte/plugins/knob/jquery.knob.js')}}"></script>
 <!-- daterangepicker -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js')}}/2.10.2/moment.min.js')}}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
 <script src="{{asset('admin-lte/plugins/daterangepicker/daterangepicker.js')}}"></script>
 <!-- datepicker -->
 <script src="{{asset('admin-lte/plugins/datepicker/bootstrap-datepicker.js')}}"></script>
